@@ -67,11 +67,21 @@ Forgemind AI
 
 <img width="1920" height="1080" alt="Sheet data" src="https://github.com/user-attachments/assets/88793dec-a6c4-4110-9621-7981b3972407" />
 
+
 <img width="1920" height="1080" alt="Openai Model" src="https://github.com/user-attachments/assets/9ef5debd-cd2f-48a2-b5d7-4909a20c43f0" />
+
 
 <img width="1920" height="1080" alt="Basic LLM chain" src="https://github.com/user-attachments/assets/b18bc6e9-0dc5-431e-b7d7-91846264505a" />
 
+
 <img width="1920" height="1080" alt="Gmail" src="https://github.com/user-attachments/assets/0e80d0e9-1d48-4fc3-b29c-0cebf88bf568" />
+
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1e7c6a61-be97-450f-83d0-919f41b1f0e1" />
+
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f6d4cac8-e6f1-489e-8950-b5672d1a634a" />
+
 
 <img width="1920" height="1080" alt="Output" src="https://github.com/user-attachments/assets/c909781c-54dd-40aa-bf37-f46f0eb4d635" />
 

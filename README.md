@@ -100,7 +100,7 @@ Forgemind AI
 
 ## 🧑‍💻 Author
 
-**Ganesh Rahul** – CTO, Nithra Apps India Pvt Ltd
+**Gokulkannan K H** – Developer, Nithra Apps India Pvt Ltd
 
 ---
 

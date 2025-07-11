@@ -70,6 +70,10 @@ Forgemind AI
 
 <img width="1920" height="1080" alt="Output" src="https://github.com/user-attachments/assets/48d87911-5390-4827-85b6-68a2ff77d6df" />
 
+<img width="1920" height="1080" alt="Screenshot (109)" src="https://github.com/user-attachments/assets/9552a8f8-58e0-4ff9-8913-88c1116cd0b6" />
+
+<img width="1920" height="1080" alt="Screenshot (110)" src="https://github.com/user-attachments/assets/693f152f-cd03-47f6-8b09-63a31242e52c" />
+
 ## 🧪 Requirements
 
 * n8n installed locally or hosted

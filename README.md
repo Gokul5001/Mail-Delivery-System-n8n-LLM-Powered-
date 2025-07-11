@@ -56,34 +56,41 @@ Forgemind AI
 
 ---
 
-## 🔄 Workflow Overview
+### 🔄 Workflow Overview
 
-1. **Trigger:** Manual execution
-2. **Google Sheet Node:** Fetch user info (email, name, personality)
-3. **LLM Chain (OpenAI):** Generate email content
-4. **Gmail Node:** Send message using dynamic recipient & message
+![n8n Workflow](images/n8n-workflow.webp)
 
-![n8n workflow](n8n%20workflow.png)
+---
 
-<img width="1000" height="900" alt="Sheet data" src="https://github.com/user-attachments/assets/88793dec-a6c4-4110-9621-7981b3972407" />
+### 🖼️ Additional Screenshots
 
+#### 📋 Google Sheet Sample
 
-<img width="1920" height="1080" alt="Openai Model" src="https://github.com/user-attachments/assets/9ef5debd-cd2f-48a2-b5d7-4909a20c43f0" />
+![Sheet Data](images/sheet-data.webp)
 
+#### 🧠 OpenAI Model Configuration
 
-<img width="1920" height="1080" alt="Basic LLM chain" src="https://github.com/user-attachments/assets/b18bc6e9-0dc5-431e-b7d7-91846264505a" />
+![OpenAI Model](images/openai-model.webp)
 
+#### 🧩 Basic LLM Chain Setup
 
-<img width="1920" height="1080" alt="Gmail" src="https://github.com/user-attachments/assets/0e80d0e9-1d48-4fc3-b29c-0cebf88bf568" />
+![Basic LLM Chain](images/llm-chain.webp)
 
+#### 📤 Gmail Send Node
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1e7c6a61-be97-450f-83d0-919f41b1f0e1" />
+![Gmail Node](images/gmail-sent.webp)
 
+#### 📨 Email Sent Confirmation
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f6d4cac8-e6f1-489e-8950-b5672d1a634a" />
+![Email Sent Log](images/email-sent-confirmation.webp)
 
+#### 📥 Email Received in Gmail Inbox
 
-<img width="1920" height="1080" alt="Output" src="https://github.com/user-attachments/assets/c909781c-54dd-40aa-bf37-f46f0eb4d635" />
+![Gmail Inbox](images/gmail-received.webp)
+
+#### 📬 Final Output Mail Preview
+
+![Final Output](images/final-output.webp)
 
 ---
 

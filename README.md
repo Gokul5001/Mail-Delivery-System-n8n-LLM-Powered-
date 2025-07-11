@@ -1,42 +1,107 @@
-# 📬 Automatic Email Delivery System using n8n
+# 📬 Automatic Email Delivery System using n8n (LLM Powered)
 
-> A zero-code automation workflow to send personalized emails using data from Google Sheets — powered by n8n, Google Sheets, and Gmail API.
+This project automates personalized email delivery by integrating **Google Sheets**, **OpenAI**, and **Gmail** via **n8n workflow automation**. The system generates and sends customized, personality-driven follow-up emails.
 
-## 🚀 Project Overview
+## 🔧 Features
 
-This project automates the task of sending customized emails with **zero manual intervention**. Built using the [n8n](https://n8n.io/) open-source workflow automation tool, this workflow allows anyone to:
+* ✍️ **LLM-Based Email Generation**
+  Uses OpenAI (e.g., `gpt-3.5-turbo`) to craft short, professional email messages based on user personality traits.
 
-✅ Read user data (Name & Email) from **Google Sheets**  
-✅ Send **personalized emails** using the **Gmail API**  
-✅ Trigger everything with a **single click** in the n8n UI
+* 📑 **Google Sheets Integration**
+  Reads recipient details (Name, Email, Personality) from a Google Sheet.
 
----
+* 📤 **Automated Gmail Sending**
+  Sends the generated emails to each recipient through Gmail API.
 
-## 📸 Demo Snapshots
+* 🔗 **Dynamic Workflow Execution**
+  Full automation using n8n with nodes for:
 
-<img width="1920" height="1080" alt="Screenshot (96)" src="https://github.com/user-attachments/assets/b537fdc2-343e-4f95-af7e-b59c2afa75c8" />
-
-<img width="1920" height="1080" alt="Screenshot (97)" src="https://github.com/user-attachments/assets/0e85b43d-fd5c-4899-a550-a391f5714026" />
-
-<img width="1920" height="1080" alt="Screenshot (98)" src="https://github.com/user-attachments/assets/ea5d6565-6186-4d2a-b9f5-6d701f03a3ca" />
-
-<img width="1920" height="1080" alt="Screenshot (99)" src="https://github.com/user-attachments/assets/e5a369c1-59c4-4ff2-abff-7fd97eff1ebf" />
-
-<img width="1920" height="1080" alt="Screenshot (100)" src="https://github.com/user-attachments/assets/fde96647-7156-49cc-b302-e20139ab86d3" />
+  * Trigger
+  * Google Sheets (Get Rows)
+  * OpenAI (LLM Chain)
+  * Gmail (Send Message)
 
 
-## 🛠 Tech Stack
+## 🖼️ Sample Input Sheet (Google Sheets)
 
-- ✅ [n8n (self-hosted)](https://n8n.io/)
-- ✅ Google Sheets API
-- ✅ Gmail API
-- ✅ Node.js (for custom nodes, if extended)
+| Mail id                                                   | Name  | Character                                                         |
+| --------------------------------------------------------- | ----- | ----------------------------------------------------------------- |
+| [gokulkannankh@gmail.com](mailto:gokulkannankh@gmail.com) | Gokul | Ambitious – Tailor messages around growth, leadership, and goals. |
 
 ---
 
-## 🧩 How It Works
+## 🧠 Prompt Structure (LLM Node)
 
-1. **Trigger**: Manual execution from n8n or webhook
-2. **Google Sheets Node**: Fetch name and email addresses
-3. **Gmail Node**: Compose and send personalized emails
-4. **Done**! 🎉
+```
+To name: {{ $json.Name }}
+Personality: {{ $json.Character }}
+```
+
+**System Prompt**
+
+> Generate a professional yet friendly email body without subject. The tone and style of the email should reflect the personality type. The content should be on "Follow-Up on Our Recent Discussion". Create a short mail content with 90–100 words. The mail is addressed to "To name". Sign the mail as Forgemind AI.
+
+---
+
+## 📨 Sample Output
+
+```text
+Hello Gokul,
+
+I hope this message finds you well. I wanted to follow up on our recent discussion regarding your career goals and aspirations. Your ambition and drive towards growth and leadership are truly inspiring. I believe that setting clear goals is key to achieving success, and I am here to support you every step of the way. If you have any further thoughts or updates to share, feel free to reach out. Looking forward to seeing your progress towards your objectives.
+
+Best regards,  
+Forgemind AI
+```
+
+---
+
+## 🔄 Workflow Overview
+
+1. **Trigger:** Manual execution
+2. **Google Sheet Node:** Fetch user info (email, name, personality)
+3. **LLM Chain (OpenAI):** Generate email content
+4. **Gmail Node:** Send message using dynamic recipient & message
+
+![n8n workflow](n8n%20workflow.png)
+
+---
+
+## 🧪 Requirements
+
+* n8n installed locally or hosted
+* Google account connected for Sheets & Gmail
+* OpenAI API credentials
+
+---
+
+## 🚀 How to Use
+
+1. Clone the repo and import the workflow JSON into n8n.
+2. Set up your credentials for:
+
+   * Google Sheets
+   * Gmail
+   * OpenAI (GPT model)
+3. Add your data to Google Sheets.
+4. Click **Execute workflow** or schedule it via trigger.
+
+---
+
+## 📂 File Structure (for reference)
+
+```
+📁 automation-mail-n8n/
+├── workflow.json
+├── README.md
+```
+
+---
+
+## 🧑‍💻 Author
+
+**Ganesh Rahul** – CTO, Nithra Apps India Pvt Ltd
+
+---
+
+Let me know if you want a downloadable `.md` file or help exporting your `workflow.json` for sharing.

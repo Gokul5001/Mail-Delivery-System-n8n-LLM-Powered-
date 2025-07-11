@@ -58,7 +58,9 @@ Forgemind AI
 
 ### 🔄 Workflow Overview
 
-![n8n Workflow](images/n8n-workflow.webp)
+![n8n Workflow](<img width="1920" height="1080" alt="n8n workflow" src="https://github.com/user-attachments/assets/946c1ec9-1c37-4c61-93e3-7c3579e80581" />)
+
+
 
 
 

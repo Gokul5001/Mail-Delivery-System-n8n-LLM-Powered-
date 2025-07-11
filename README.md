@@ -60,39 +60,7 @@ Forgemind AI
 
 ![n8n Workflow](images/n8n-workflow.webp)
 
----
 
-### 🖼️ Additional Screenshots
-
-#### 📋 Google Sheet Sample
-
-![Sheet Data](images/sheet-data.webp)
-
-#### 🧠 OpenAI Model Configuration
-
-![OpenAI Model](images/openai-model.webp)
-
-#### 🧩 Basic LLM Chain Setup
-
-![Basic LLM Chain](images/llm-chain.webp)
-
-#### 📤 Gmail Send Node
-
-![Gmail Node](images/gmail-sent.webp)
-
-#### 📨 Email Sent Confirmation
-
-![Email Sent Log](images/email-sent-confirmation.webp)
-
-#### 📥 Email Received in Gmail Inbox
-
-![Gmail Inbox](images/gmail-received.webp)
-
-#### 📬 Final Output Mail Preview
-
-![Final Output](images/final-output.webp)
-
----
 
 ## 🧪 Requirements
 

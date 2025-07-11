@@ -65,7 +65,7 @@ Forgemind AI
 
 ![n8n workflow](n8n%20workflow.png)
 
-<img width="1920" height="1080" alt="Sheet data" src="https://github.com/user-attachments/assets/88793dec-a6c4-4110-9621-7981b3972407" />
+<img width="1000" height="900" alt="Sheet data" src="https://github.com/user-attachments/assets/88793dec-a6c4-4110-9621-7981b3972407" />
 
 
 <img width="1920" height="1080" alt="Openai Model" src="https://github.com/user-attachments/assets/9ef5debd-cd2f-48a2-b5d7-4909a20c43f0" />
